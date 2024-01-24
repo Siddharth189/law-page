@@ -1,0 +1,39 @@
+.test-page-big {
+  margin-top: 20px;
+  background-image: url("../../assests/images/courtroom1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.test-page {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+
+.details {
+  min-width: 220px;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card > p {
+  /* margin: 10px 0px 0px 30px; */
+  margin-left: 15px;
+  color: #7d7d7d;
+}
+
+.card {
+  min-width: 220px;
+  width: 220px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px 0px 10px 0px;
+  box-shadow: 20px 19px 0px 0px rgba(224, 224, 224, 1);
+}

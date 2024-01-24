@@ -1,0 +1,40 @@
+import React from "react";
+import "./blog.css";
+import Blog_Card from "./Blog_Card";
+import { GrFormNextLink } from "react-icons/gr";
+import { GrFormPreviousLink } from "react-icons/gr";
+
+function Blog_main() {
+  return (
+    <div className="blog-main">
+      <div className="flex-row">
+        <p>Get your doubts solved</p>
+        <div className="custom-line" style={{ width: "100px" }}></div>
+      </div>
+
+      <div className="flex-row-between">
+        <h3>FROM OUR BLOG</h3>
+        <div className="flex-row">
+          <button className="btn">
+            <GrFormPreviousLink
+              style={{ verticalAlign: "middle", color: "#f58c17" }}
+            />
+          </button>
+          <button className="btn">
+            <GrFormNextLink
+              style={{ verticalAlign: "middle", color: "#f58c17" }}
+            />
+          </button>
+        </div>
+      </div>
+
+      <div className="flex-row-evenly">
+        <Blog_Card />
+        <Blog_Card />
+        <Blog_Card />
+      </div>
+    </div>
+  );
+}
+
+export default Blog_main;
