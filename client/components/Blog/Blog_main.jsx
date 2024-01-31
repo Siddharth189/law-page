@@ -6,32 +6,34 @@ import { GrFormPreviousLink } from "react-icons/gr";
 
 function Blog_main() {
   return (
-    <div className="blog-main">
-      <div className="flex-row">
-        <p>Get your doubts solved</p>
-        <div className="custom-line" style={{ width: "100px" }}></div>
-      </div>
-
-      <div className="flex-row-between">
-        <h3>FROM OUR BLOG</h3>
+    <div className="flex-column-center">
+      <div className="page-style">
         <div className="flex-row">
-          <button className="btn">
-            <GrFormPreviousLink
-              style={{ verticalAlign: "middle", color: "#f58c17" }}
-            />
-          </button>
-          <button className="btn">
-            <GrFormNextLink
-              style={{ verticalAlign: "middle", color: "#f58c17" }}
-            />
-          </button>
+          <p>Get your doubts solved</p>
+          <div className="custom-line" style={{ width: "100px" }}></div>
         </div>
-      </div>
 
-      <div className="flex-row-evenly">
-        <Blog_Card />
-        <Blog_Card />
-        <Blog_Card />
+        <div className="flex-row-between">
+          <h3>FROM OUR BLOG</h3>
+          <div className="flex-row">
+            <button className="btn">
+              <GrFormPreviousLink
+                style={{ verticalAlign: "middle", color: "#f58c17" }}
+              />
+            </button>
+            <button className="btn">
+              <GrFormNextLink
+                style={{ verticalAlign: "middle", color: "#f58c17" }}
+              />
+            </button>
+          </div>
+        </div>
+
+        <div className="flex-row-between">
+          <Blog_Card />
+          <Blog_Card />
+          <Blog_Card />
+        </div>
       </div>
     </div>
   );

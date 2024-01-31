@@ -18,7 +18,17 @@
   padding: 15px;
   align-items: center;
 }
+
 .header-lower-row {
   padding: 15px;
   align-items: center;
+}
+
+.header-icon-style {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.header-list li {
+  margin: 0px 10px 0px 10px;
 }

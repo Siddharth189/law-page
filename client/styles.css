@@ -46,6 +46,18 @@
   align-items: center;
 }
 
+.flex-row-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row-right {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
 .list-row {
   list-style: none;
   justify-content: space-evenly;
@@ -57,4 +69,14 @@
   margin-bottom: 9px;
   margin-left: 7px;
   border-bottom: 2px solid #f58c17;
+}
+
+.page-style {
+  width: 75vw;
+  min-width: 250px;
+}
+
+.half {
+  width: 50%;
+  min-width: 300px;
 }

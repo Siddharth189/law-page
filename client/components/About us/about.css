@@ -1,0 +1,17 @@
+.about {
+  background: rgb(245, 140, 23);
+  background: linear-gradient(
+    45deg,
+    rgba(245, 140, 23, 1) 2%,
+    rgba(255, 255, 255, 1) 2%
+  );
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.img-card img {
+  box-shadow: -20px -20px 0px 0px rgba(14, 70, 114, 1);
+  width: 300px;
+  height: 300px;
+  border-radius: 0px 40px 0px 40px;
+}
