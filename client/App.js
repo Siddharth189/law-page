@@ -6,6 +6,7 @@ import Contact from "./components/ContactUs/Contact";
 import Cover from "./components/Cover/Cover";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import MapContainer from "./components/Map Location/MapContainer";
 import Services from "./components/Services/Services";
 import Settle from "./components/Settlements/Settle";
 import Team from "./components/team/Team";
@@ -25,6 +26,7 @@ const App = () => {
       <Testimonials />
       <Blog_main />
       <Contact />
+      <MapContainer />
       <Footer />
     </div>
   );

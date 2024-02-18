@@ -6,7 +6,7 @@ import { GrFormPreviousLink } from "react-icons/gr";
 
 function Blog_main() {
   return (
-    <div className="flex-column-center">
+    <div id="blog" className="blog-main flex-column-center">
       <div className="page-style">
         <div className="flex-row">
           <p>Get your doubts solved</p>

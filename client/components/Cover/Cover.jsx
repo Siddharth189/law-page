@@ -10,7 +10,8 @@ function Cover() {
           <h1>We Fight For Your Injustice</h1>
           <h1>as Like your Companion.</h1>
           <p>The Most Talented & Reputable Law Firm.</p>
-          <button className="subscribe-btn">CONTACT US</button>
+          {/* <button className="submit-btn">CONTACT US</button> */}
+          <button className="submit-btn">CONTACT US</button>
         </div>
       </div>
     </div>

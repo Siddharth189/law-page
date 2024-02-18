@@ -3,7 +3,7 @@ import "./styles.css";
 import ServiceCard from "./ServiceCard";
 function Services() {
   return (
-    <div className="flex-column-center">
+    <div id="services" className="services flex-column-center">
       <div className="page-style">
         <div className="flex-row">
           <p>We serve the best services.</p>

@@ -32,3 +32,10 @@
 .header-list li {
   margin: 0px 10px 0px 10px;
 }
+
+
+.header-logo img{
+  width: 200px;
+  height: auto;
+  background-color: black;
+}

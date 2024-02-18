@@ -18,11 +18,12 @@
 }
 
 .details {
-  min-width: 220px;
-  width: 45%;
+  min-width: 250px;
+  width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 20px 0px;
 }
 
 .card > p {
@@ -32,8 +33,8 @@
 }
 
 .card {
-  min-width: 220px;
-  width: 220px;
+  min-width: 250px;
+  /* width: 220px; */
   background-color: white;
   padding: 20px;
   border-radius: 10px 0px 10px 0px;
@@ -42,7 +43,7 @@
 
 .form {
   min-width: 220px;
-  width: 45%;
+  width: 60%;
   margin-top: 20px;
   color: white;
 }
@@ -71,4 +72,10 @@
   border-bottom: 1px dashed #7d7d7d;
   margin-top: 30px;
   margin-bottom: 20px;
+}
+
+
+.error {
+  /* border: 2px solid red !important; */
+  border-color: red !important; 
 }

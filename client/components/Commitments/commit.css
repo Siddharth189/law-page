@@ -56,7 +56,17 @@
 }
 
 .commit-content {
-  padding: 40px 10px 40px 40px;
+  padding: 40px 0px;
   width: 30vw;
   min-width: 100px;
+}
+
+.right-side-half li {
+  margin-top: 20px;
+}
+
+.check-pointer {
+  vertical-align: middle;
+  font-size: 0.85rem;
+  margin-right: 5px;
 }

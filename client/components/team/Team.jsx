@@ -11,10 +11,10 @@ function Team() {
         </div>
         <h3>MEET OUR ATTORNEYS</h3>
         <div className="flex-row-between">
-          <TeamCard />
-          <TeamCard />
-          <TeamCard />
-          <TeamCard />
+          <TeamCard name="Mohit Bhati" designation="Attorny at Law" />
+          <TeamCard name="Mohit Bhati" designation="Attorny at Law" />
+          <TeamCard name="Mohit Bhati" designation="Attorny at Law" />
+          <TeamCard name="Mohit Bhati" designation="Attorny at Law" />
         </div>
       </div>
     </div>

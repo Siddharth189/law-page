@@ -1,6 +1,19 @@
 .team-card {
   width: 300px;
-  height: 350px;
-  background-color: orange;
+  /* height: 350px; */
+  /* background-color: orange; */
   margin: 10px 0px 10px 0px;
+  
+}
+
+.team-card img{
+  width: 300px;
+  height: 350px;
+  margin-bottom: -13px;
+}
+
+.team-card-name{
+  background: rgb(208,81,49);
+  background: linear-gradient(45deg, rgba(208,81,49,1) 15%, rgba(255,255,255,1) 15%);
+  padding: 10px;
 }

@@ -4,6 +4,7 @@ import { ImLinkedin2 } from "react-icons/im";
 import { ImTwitter } from "react-icons/im";
 import { FaPinterestP } from "react-icons/fa";
 import { CgArrowUp } from "react-icons/cg";
+import LOGO from "../assests/images/logo.png";
 
 import "./footer.css";
 
@@ -23,7 +24,9 @@ function Footer() {
     <div className="footer flex-column-center">
       <div className="flex-row">
         <div className="small-horizontal-line"></div>
-        <button className="back-to-top-btn">BACK TO TOP</button>
+        <a href="#header" className="back-to-top-btn">
+          BACK TO TOP
+        </a>
         <CgArrowUp style={{ color: "#f58c17" }} />
         <div className="small-horizontal-line"></div>
       </div>
@@ -69,7 +72,13 @@ function Footer() {
       >
         <div style={{ width: "25%" }}>
           <ul style={{ listStyle: "none" }}>
-            <li>Logos</li>
+            <li>
+              <p className="header-logo">
+                <a href="#header">
+                  <img src={LOGO} alt="logo" />
+                </a>
+              </p>
+            </li>
             <li>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.

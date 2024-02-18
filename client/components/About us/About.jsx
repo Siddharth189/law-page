@@ -14,12 +14,25 @@ function About() {
             <p>About Us</p>
             <div className="custom-line" style={{ width: "100px" }}></div>
           </div>
-          <h3>WHO WE ARE</h3>
+          <h3 style={{ margin: "10px 0px" }}>WHO WE ARE</h3>
           <div className="flex-row-between">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            eos magni minima modi aperiam praesentium error dolor nisi nihil
-            consequatur porro eius natus, fuga laudantium, accusamus repellendus
-            laborum autem deleniti!
+            <p>
+              We provides best initial legal Advice relating to all divorce and
+              criminal matters. We have team of experienced Lawyer's staff who
+              have decades of experience in handling sensitive divorce and
+              criminal matters of all kinds.
+              <br />
+              <br />
+              Different types of cases that may require presence and
+              investigation of accused includes, Accidents, rape, murder,
+              cheating (420), Forgery, Frauds cases, Economic Crimes,
+              <br />
+              <br />
+              Domestic violence, Marriage registration, Divorce matters,
+              Matrimonial Disputes, 498A Dowry, Sexual Harassment, Cyber Crimes,
+              Cheque bounce matters, all types of bail matters like regular bail
+              and anticipatory bail etc.
+            </p>
           </div>
         </div>
       </div>
