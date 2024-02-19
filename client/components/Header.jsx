@@ -24,15 +24,15 @@ function Header() {
         <div className="page-style flex-row-between">
           <ul className="flex-row list-row header-list">
             <li>
-              <BsTelephoneFill className="header-icon-style" />
+              <BsTelephoneFill className="header-icon-style icon-style" />
               945-717-7171
             </li>
             <li>
-              <IoMail className="header-icon-style" />
+              <IoMail className="header-icon-style icon-style" />
               info@injury&accident.com
             </li>
             <li>
-              <HiBuildingOffice2 className="header-icon-style" />
+              <HiBuildingOffice2 className="header-icon-style icon-style" />
               (931)020-4200
             </li>
           </ul>

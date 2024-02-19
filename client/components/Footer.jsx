@@ -7,6 +7,7 @@ import { CgArrowUp } from "react-icons/cg";
 import LOGO from "../assests/images/logo.png";
 
 import "./footer.css";
+import { Link } from "react-router-dom";
 
 function Footer() {
   const ColoredLine = ({ color }) => (
@@ -24,9 +25,9 @@ function Footer() {
     <div className="footer flex-column-center">
       <div className="flex-row">
         <div className="small-horizontal-line"></div>
-        <a href="#header" className="back-to-top-btn">
+        <Link to="#header" className="back-to-top-btn">
           BACK TO TOP
-        </a>
+        </Link>
         <CgArrowUp style={{ color: "#f58c17" }} />
         <div className="small-horizontal-line"></div>
       </div>
@@ -108,12 +109,15 @@ function Footer() {
             <h4 style={{ color: "#333333" }}>Types of Cases</h4>
             <div className="small-horizontal-line"></div>
           </div>
-          <ul style={{ listStyle: "none" }}>
-            <li>Car Accidents</li>
-            <li>Car Accidents</li>
-            <li>Car Accidents</li>
-            <li>Car Accidents</li>
-            <li>Car Accidents</li>
+          <ul style={{ listStyle: "none", minWidth: "300px" }}>
+            <li>Accidents, Rape, Murder</li>
+            <li>Cheating (420), Forgery</li>
+            <li>Domestic violence, Marriage registration, Divorce matters</li>
+            <li>Matrimonial Disputes, 498A Dowry, Sexual Harassment</li>
+            <li>Cyber Crimes, Cheque bounce matters</li>
+            <li>
+              All types of bail matters like regular bail and anticipatory bail
+            </li>
           </ul>
         </div>
         <div>
@@ -122,7 +126,12 @@ function Footer() {
             <div className="small-horizontal-line"></div>
           </div>
           <ul style={{ listStyle: "none" }}>
-            <li>Address 1</li>
+            <li>
+              Chamber No 197, <br />
+              Street no 6 District & Sessions <br />
+              Court at Surajpur <br />
+              Uttar Pradesh 201308 India
+            </li>
             <li>Address 2</li>
             <li>Address 3</li>
           </ul>
@@ -155,7 +164,7 @@ function Footer() {
         style={{ marginBottom: "10px", width: "70%" }}
       >
         <p style={{ color: "#7d7d7d" }}>
-          @ 2021 WIN Injury & Accident Trail Laywers | All Rights Are Reserved
+          @ 2024 ADHIVAKTA Law Cafe | All Rights Are Reserved
         </p>
       </div>
     </div>

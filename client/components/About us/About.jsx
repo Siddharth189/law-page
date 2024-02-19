@@ -1,6 +1,8 @@
 import React from "react";
 import "./about.css";
 import MAN from "../../assests/images/man.jpg";
+import { Link } from "react-router-dom";
+import { IoMdArrowRoundForward } from "react-icons/io";
 
 function About() {
   return (
@@ -33,6 +35,11 @@ function About() {
               Cheque bounce matters, all types of bail matters like regular bail
               and anticipatory bail etc.
             </p>
+          </div>
+          <div className="about-btn">
+            <Link to="/about">
+              Know More <IoMdArrowRoundForward className="icon-style" />{" "}
+            </Link>
           </div>
         </div>
       </div>

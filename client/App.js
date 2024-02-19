@@ -1,3 +1,4 @@
+import ReactDOM from "react-dom/client";
 import About from "./components/About us/About";
 import Awards from "./components/Awards/Awards";
 import Blog_main from "./components/Blog/Blog_main";
@@ -12,10 +13,10 @@ import Settle from "./components/Settlements/Settle";
 import Team from "./components/team/Team";
 import Testimonials from "./components/testimonials/Testimonials";
 
+
 const App = () => {
   return (
     <div className="app-class">
-      <Header />
       <Cover />
       <Awards />
       <About />
@@ -27,9 +28,9 @@ const App = () => {
       <Blog_main />
       <Contact />
       <MapContainer />
-      <Footer />
     </div>
   );
 };
+
 
 export default App;

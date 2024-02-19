@@ -21,3 +21,14 @@
   align-items: center;
   padding-top: 20px;
 }
+
+.about-btn{
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+}
+
+.about-btn > a {
+  color: #f58c17;
+
+}
