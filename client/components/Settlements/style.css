@@ -1,8 +1,9 @@
 .settle-card {
-  height: 200px;
-  width: 200px;
-  background-color: orange;
+  height: auto;
+  width: 320px;
+  /* background-color: green; */
   margin: 20px 0px;
+  
 }
 
 .settle {
@@ -13,4 +14,17 @@
     rgba(255, 255, 255, 1) 2%
   );
   padding: 30px 0px;
+}
+
+.balance-box{
+  padding: 0px 15px;
+  border: 2px solid rgb(14, 71, 116);
+  font-size: 2rem;
+  /* color: rgb(14, 71, 116); */
+  margin-right: 10px;
+}
+
+.settle-card-top{
+  color: rgb(14, 71, 116);
+  flex-wrap: nowrap !important;
 }

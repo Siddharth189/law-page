@@ -5,6 +5,7 @@ import { IoMail } from "react-icons/io5";
 import { HiBuildingOffice2 } from "react-icons/hi2";
 import "./header.css";
 import LOGO from "./../assests/images/logo.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   const isMobile = window.innerWidth <= 768; // Set your preferred breakpoint
@@ -51,26 +52,26 @@ function Header() {
           </p>
           <ul className="flex-row list-row header-list">
             <li>
-              <a href="#header">HOME</a>
+              <Link to="/#header">HOME</Link>
             </li>
             <li>
-              <a href="#commit">ATTORNEYS</a>
+              <Link to="/#commit">ATTORNEYS</Link>
             </li>
             <li>
-              <a href="#commit">PRACTICE</a>
+              <Link to="/#commit">PRACTICE</Link>
             </li>
             <li>
-              <a href="#services"> AREA</a>
+              <Link to="#services"> AREA</Link>
             </li>
             <li>
-              <a href="#blog">BLOG</a>
+              <Link to={`/` + `#blog`}>BLOG</Link>
             </li>
             <li>
-              <a href="#contact">CONTACT</a>
+              <Link to="/about">CONTACT</Link>
             </li>
             <li>|</li>
             <li>
-              <IoSearch style={{ verticalAlign: "middle" }} />
+              <IoSearch className="icon-style" />
             </li>
           </ul>
         </div>

@@ -14,7 +14,6 @@ function Team() {
           <TeamCard name="Mohit Bhati" designation="Attorny at Law" />
           <TeamCard name="Mohit Bhati" designation="Attorny at Law" />
           <TeamCard name="Mohit Bhati" designation="Attorny at Law" />
-          <TeamCard name="Mohit Bhati" designation="Attorny at Law" />
         </div>
       </div>
     </div>

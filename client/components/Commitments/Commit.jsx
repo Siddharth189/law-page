@@ -3,8 +3,8 @@ import { GiCheckMark } from "react-icons/gi";
 import "./commit.css";
 
 function Commit() {
-  const text = `\nJonathan LaCour and the attorneys at Win Injury & Accident Law take
-  smart and thoughtful approach to prosecuting its cases. \n
+  const text = `\nAdhivakta Law Cafe take smart and thoughtful approach to 
+  prosecuting its cases. \n
   As a result, the majority of their cases are so well prepared
   employer defendants have no choice but to settle for substantial
   amounts long before trial. \n
@@ -17,7 +17,7 @@ function Commit() {
     setShowMore(!showMore);
   };
   return (
-    <div id="commit" className="flex-row-between">
+    <div id="commit" className="flex-row-center">
       <div className="half left-side-half-big">
         <div className="left-side-half flex-row-center">
           <div className="commit-content">

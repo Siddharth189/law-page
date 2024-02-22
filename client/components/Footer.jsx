@@ -109,15 +109,15 @@ function Footer() {
             <h4 style={{ color: "#333333" }}>Types of Cases</h4>
             <div className="small-horizontal-line"></div>
           </div>
-          <ul style={{ listStyle: "none", minWidth: "300px" }}>
+          <ul style={{ listStyle: "none" }}>
             <li>Accidents, Rape, Murder</li>
             <li>Cheating (420), Forgery</li>
-            <li>Domestic violence, Marriage registration, Divorce matters</li>
+            {/* <li>Domestic violence, Marriage registration, Divorce matters</li>
             <li>Matrimonial Disputes, 498A Dowry, Sexual Harassment</li>
             <li>Cyber Crimes, Cheque bounce matters</li>
             <li>
               All types of bail matters like regular bail and anticipatory bail
-            </li>
+            </li> */}
           </ul>
         </div>
         <div>
@@ -132,8 +132,6 @@ function Footer() {
               Court at Surajpur <br />
               Uttar Pradesh 201308 India
             </li>
-            <li>Address 2</li>
-            <li>Address 3</li>
           </ul>
         </div>
 
@@ -144,9 +142,8 @@ function Footer() {
           </div>
 
           <ul style={{ listStyle: "none" }}>
-            <li>Siddharth Singh</li>
-            <li>Yuvraj</li>
-            <li>Harsh</li>
+            <li>Adv. Mohit Bhati</li>
+            <li>Shashi Kant Bhati</li>
           </ul>
         </div>
       </div>
