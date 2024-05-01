@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { IoSearch } from "react-icons/io5";
 import { BsTelephoneFill } from "react-icons/bs";
 import { IoMail } from "react-icons/io5";
@@ -8,16 +8,20 @@ import LOGO from "./../assests/images/logo.png";
 import { Link } from "react-router-dom";
 
 function Header() {
-  const isMobile = window.innerWidth <= 768; // Set your preferred breakpoint
+  const [showMenu, setShowMenu] = useState(false);
 
   const menuItems = [
-    "HOME",
-    "ATTORNEYS",
-    "PRACTICE",
-    "AREA",
-    "BLOG",
-    "CONTACT",
+    { label: "HOME", link: "/" },
+    { label: "ATTORNEYS", link: "/#commit" },
+    { label: "PRACTICE", link: "/#commit" },
+    { label: "AREA", link: "/#services" },
+    { label: "BLOG", link: "/#blog" },
+    { label: "CONTACT", link: "/about" },
   ];
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
 
   return (
     <div id="header" className="header">
@@ -40,7 +44,6 @@ function Header() {
           <a href="#contact" className="consult-btn">
             Free Consultations
           </a>
-          {/* <button className="consult-btn">Free Consultations</button> */}
         </div>
       </div>
       <div className="flex-row-center">
@@ -50,30 +53,20 @@ function Header() {
               <img src={LOGO} alt="logo" />
             </a>
           </p>
-          <ul className="flex-row list-row header-list">
-            <li>
-              <Link to="/">HOME</Link>
-            </li>
-            <li>
-              <a href="/#commit">ATTORNEYS</a>
-            </li>
-            <li>
-              <a href="/#commit">PRACTICE</a>
-            </li>
-            <li>
-              <Link to="/#services"> AREA</Link>
-            </li>
-            <li>
-              <Link to="/#blog">BLOG</Link>
-            </li>
-            <li>
-              <Link to="/about">CONTACT</Link>
-            </li>
-            <li>|</li>
-            <li>
-              <IoSearch className="icon-style" />
-            </li>
-          </ul>
+          <div className="menu-icon" onClick={toggleMenu}>
+            <IoSearch className="icon-style" />
+          </div>
+          {showMenu && (
+            <ul className="flex-row list-row header-list">
+              {menuItems.map((item, index) => (
+                <li key={index}>
+                  <Link to={item.link} onClick={toggleMenu}>
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
       </div>
     </div>

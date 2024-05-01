@@ -24,7 +24,7 @@ const App = () => {
       <Commit />
       <Services />
       <Team />
-       {/* <Testimonials /> */}
+      {/* <Testimonials /> */}
       <Blog_main />
       <Contact />
       <MapContainer />
