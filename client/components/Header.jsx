@@ -52,19 +52,19 @@ function Header() {
           </p>
           <ul className="flex-row list-row header-list">
             <li>
-              <Link to="/#header">HOME</Link>
+              <Link to="/">HOME</Link>
             </li>
             <li>
-              <Link to="/#commit">ATTORNEYS</Link>
+              <a href="/#commit">ATTORNEYS</a>
             </li>
             <li>
-              <Link to="/#commit">PRACTICE</Link>
+              <a href="/#commit">PRACTICE</a>
             </li>
             <li>
-              <Link to="#services"> AREA</Link>
+              <Link to="/#services"> AREA</Link>
             </li>
             <li>
-              <Link to={`/` + `#blog`}>BLOG</Link>
+              <Link to="/#blog">BLOG</Link>
             </li>
             <li>
               <Link to="/about">CONTACT</Link>
