@@ -33,7 +33,7 @@ function ServiceCard({ type, Icon }) {
         <Icon className="icon-style" />
       </div>
 
-      <a className="service-card-btn" href="">
+      <link className="service-card-btn" to="/blog">
         <div className=" flex-row-between">
           <p>{type}</p>
           <BsArrowRight className="icon-style" />
