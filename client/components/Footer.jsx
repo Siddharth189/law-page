@@ -80,12 +80,7 @@ function Footer() {
                 </a>
               </p>
             </li>
-            <li>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam quos sit voluptate porro, doloremque veritatis.
-              </p>
-            </li>
+        
             <li>
               <ul className="social-list">
                 <li>

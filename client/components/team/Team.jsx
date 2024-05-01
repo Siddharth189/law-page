@@ -9,11 +9,10 @@ function Team() {
           <p>Qualified and dedicated Team</p>
           <div className="custom-line" style={{ width: "100px" }}></div>
         </div>
-        <h3>MEET OUR ATTORNEYS</h3>
+       
         <div className="flex-row-between">
-          <TeamCard name="Mohit Bhati" designation="Attorny at Law" />
-          <TeamCard name="Mohit Bhati" designation="Attorny at Law" />
-          <TeamCard name="Mohit Bhati" designation="Attorny at Law" />
+          <TeamCard name="Adv. Mohit Bhati" designation="Attorny at Law"  image="man"/>
+          <TeamCard name="Adv. Shashi kant Bhati" designation="Attorny at Law" image="man2"/>
         </div>
       </div>
     </div>

@@ -10,7 +10,9 @@ const MapContainer = () => {
         allowFullScreen
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
-      ></iframe>
+      >
+        
+      </iframe>
     </div>
   );
 };

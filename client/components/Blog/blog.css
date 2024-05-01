@@ -1,7 +1,44 @@
 .blog-card {
+  width: 300px;
+  height: 300px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  overflow: hidden;
+}
+
+.blog-main {
+  padding: 20px 0px;
+}
+
+.btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 75px;
+  background-color: light black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: brown;
+}
+
+
+
+
+
+
+
+
+/*
+.blog-card {
   width: 250px;
   height: 300px;
-  background-color: orange;
+  background-color: grey;
   margin: 10px 0px 10px 0px;
 }
 
@@ -9,10 +46,4 @@
   padding: 40px 0px;
 }
 
-.btn {
-  padding: 5px;
-  border: none;
-  border-radius: 3px;
-  background-color: #e3e3e3;
-  margin: 0px 5px;
-}
+

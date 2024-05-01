@@ -3,7 +3,8 @@ import { GiCheckMark } from "react-icons/gi";
 import "./commit.css";
 
 function Commit() {
-  const text = `\nAdhivakta Law Cafe take smart and thoughtful approach to 
+  const text = `\n
+  Adhivakta Law Cafe take smart and thoughtful approach to 
   prosecuting its cases. \n
   As a result, the majority of their cases are so well prepared
   employer defendants have no choice but to settle for substantial
@@ -50,19 +51,19 @@ function Commit() {
             <ul className="list-row">
               <li>
                 <GiCheckMark className="check-pointer" />
-                do everything possible to maximise the value of your claim,
+                Do everything possible to maximise the value of your claim,
                 including hiring experts, case mangers, and engaging outside
                 services at no upfront cost to you,
               </li>
               <li>
                 <GiCheckMark className="check-pointer" />
-                ensure that we communicate with you at all critical points of
+                Ensure that we communicate with you at all critical points of
                 your matter. We want you to know exactly what is going on in
                 your case and why, and
               </li>
               <li>
                 <GiCheckMark className="check-pointer" />
-                to treat you like family and look after your best interest,
+                To treat you like family and look after your best interest,
                 always.
               </li>
               <li></li>

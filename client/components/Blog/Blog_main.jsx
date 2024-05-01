@@ -9,12 +9,12 @@ function Blog_main() {
     <div id="blog" className="blog-main flex-column-center">
       <div className="page-style">
         <div className="flex-row">
-          <p>Get your doubts solved</p>
+          <p>Get to know about us more</p>
           <div className="custom-line" style={{ width: "100px" }}></div>
         </div>
 
         <div className="flex-row-between">
-          <h3>FROM OUR BLOG</h3>
+          <h3>FROM OUR DAILY BLOG UPDATES</h3>
           <div className="flex-row">
             <button className="btn">
               <GrFormPreviousLink
