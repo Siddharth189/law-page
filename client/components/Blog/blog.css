@@ -1,0 +1,146 @@
+.blog-main {
+  padding: 20px 0px;
+}
+
+.btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 75px;
+  background-color: light black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: brown;
+}
+
+
+
+
+
+
+
+
+.blog-card {
+  width: 320px;
+  height: 350px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin: 10px 0px;
+}
+
+.blog-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.blog-header-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.blog-card p {
+  padding: 15px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.blog-card:hover p {
+  color: #f58c17;
+}
+
+.blog-card .blog-footer {
+  margin-top: auto;
+  padding: 10px 15px;
+  background-color: #f8f8f8;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
+.blog-details {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 25px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Georgia", serif;
+}
+
+.blog-details h1 {
+  font-size: 32px;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.blog-details img {
+  width: 100%;
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-details p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #4d4d4d;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.blog-details p:last-of-type {
+  font-size: 15px;
+  color: #7f8c8d;
+  text-align: right;
+  margin-top: 30px;
+  font-style: italic;
+}
+
+.blog-details strong {
+  color: #34495e;
+  font-weight: bold;
+}
+
+.blog-details blockquote {
+  font-style: italic;
+  font-size: 20px;
+  color: #7f8c8d;
+  margin: 20px 0;
+  padding-left: 15px;
+  border-left: 4px solid #e67e22;
+}
+
+@media (max-width: 768px) {
+  .blog-details {
+    padding: 15px;
+  }
+
+  .blog-details h1 {
+    font-size: 26px;
+  }
+
+  .blog-details p {
+    font-size: 16px;
+  }
+
+  .blog-details img {
+    max-height: 300px;
+  }
+}

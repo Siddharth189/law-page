@@ -1,0 +1,100 @@
+.contact-page-big {
+  margin-top: 20px;
+  /* background-color: teal; */
+
+  background-image: url("../../assests/images/courtroom1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact-page {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+
+.details {
+  min-width: 250px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.card > p {
+  /* margin: 10px 0px 0px 30px; */
+  margin-left: 30px;
+  color: #7d7d7d;
+}
+
+.card {
+  min-width: 250px;
+  /* width: 220px; */
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px 0px 10px 0px;
+  box-shadow: 20px 19px 0px 0px rgba(224, 224, 224, 1);
+}
+
+.form {
+  min-width: 220px;
+  width: 60%;
+  margin-top: 20px;
+  color: white;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Adds space between form elements */
+  width: 100%;
+  max-width: 400px; /* Limits the form width */
+  margin: 0 auto; /* Centers the form horizontally */
+}
+
+.contact-form > input,
+.contact-form > textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
+  resize: none; /* Prevents resizing of the textarea */
+}
+
+.contact-form > textarea {
+  height: 100px;
+  background-color: white;
+  color: black;
+}
+
+.contact-form .submit-btn {
+  width: fit-content;
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: #f58c17;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 0 auto; /* Centers the button */
+  font-size: 1rem;
+}
+
+.dashed-line {
+  border-bottom: 1px dashed #7d7d7d;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+
+.error {
+  /* border: 2px solid red !important; */
+  border-color: red !important; 
+}

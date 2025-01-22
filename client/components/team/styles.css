@@ -1,0 +1,33 @@
+.team-card {
+  width: 280px;
+  height: 320px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block; /* Display as inline-block */
+  margin: 0; /* Remove margin */
+  overflow: hidden;
+  vertical-align: top; /* Align the cards vertically */
+}
+/* .team-card div{
+  width: 100%;
+  height: 83%;
+} */
+.team-card img {
+  width: 100%;
+  height: 260px;
+  display: block;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.team-card-name {
+  background: #d05131;
+  background: linear-gradient(45deg, #d05131 20%, #ffffff 20%);
+  color: black;
+  padding: 10px;
+  text-align: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  height: 50px;
+}

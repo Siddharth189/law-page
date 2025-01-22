@@ -1,0 +1,31 @@
+/* 
+.types {
+    width: 280px;
+    height: 320px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block; 
+    margin: 0; 
+    overflow: hidden;
+    vertical-align: top;
+  }
+  
+  .types img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .team-card-description{
+    background: #d05131;
+    background: linear-gradient(45deg, #d05131 15%, #ffffff 15%);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  */

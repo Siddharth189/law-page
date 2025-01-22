@@ -1,0 +1,40 @@
+.consult-btn {
+  padding: 10px;
+  border-radius: 5px;
+  background: none;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.header-upper-row {
+  color: white;
+  background: rgb(14, 71, 116);
+  background: linear-gradient(
+    90deg,
+    rgba(14, 71, 116, 1) 36%,
+    rgba(0, 26, 70, 1) 100%
+  );
+  padding: 15px;
+  align-items: center;
+}
+
+.header-lower-row {
+  padding: 15px;
+  align-items: center;
+}
+
+.header-icon-style {
+  margin-right: 10px;
+}
+
+.header-list li {
+  margin: 0px 10px 0px 10px;
+}
+
+
+.header-logo img{
+  width: 200px;
+  height: auto;
+  background-color: black;
+}
